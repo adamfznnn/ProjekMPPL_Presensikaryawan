@@ -1,0 +1,103 @@
+/* Background umum */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Judul halaman */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #316dd5;
+}
+
+/* Table container */
+table {
+    width: 90%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Header tabel */
+table th {
+    background: #316dd5;
+    color: #fff;
+    padding: 14px;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Cell data */
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Alternating row */
+table tr:nth-child(even) {
+    background: #f7f9fc;
+}
+
+/* Hover effect */
+table tr:hover {
+    background: #eaf1ff;
+}
+
+/* Link bukti */
+table a {
+    color: #316dd5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Status badge */
+.status-box {
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+}
+
+/* Status warna */
+.pending {
+    background: #f7a400;
+}
+
+.approved {
+    background: #28a745;
+}
+
+.rejected {
+    background: #dc3545;
+}
+
+/* Tombol kembali */
+.btn-back {
+    display: block;
+    width: 200px;
+    margin: 25px auto;
+    text-align: center;
+    background: #ed2e10;
+    padding: 12px 0;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-back:hover {
+    background: #c81d0a;
+}

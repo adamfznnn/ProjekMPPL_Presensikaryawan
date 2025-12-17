@@ -1,0 +1,130 @@
+/* ============================
+   GLOBAL PAGE STYLE
+============================ */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e9efff, #f5f7fa);
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+
+/* ============================
+   CARD CONTAINER
+============================ */
+.card {
+    background: #ffffff;
+    width: 850px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.4s ease;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ============================
+   TITLE
+============================ */
+h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #2b2f3a;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+/* ============================
+   BUTTONS
+============================ */
+.btn-primary,
+.btn-danger,
+.btn-back {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+/* Biru */
+.btn-primary {
+    background: #2b7cff;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(43, 124, 255, 0.25);
+}
+
+.btn-primary:hover {
+    background: #1d64d8;
+    transform: translateY(-2px);
+}
+
+/* Merah (hapus) */
+.btn-danger {
+    background: #ff2d2d;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(255, 50, 50, 0.25);
+}
+
+.btn-danger:hover {
+    background: #d41c1c;
+    transform: translateY(-2px);
+}
+
+/* Tombol Kembali */
+.btn-back {
+    background: #ff2d2d;
+    color: white;
+    display: block;
+    width: 120px;
+    text-align: center;
+    margin: 25px auto 0 auto;
+    box-shadow: 0 3px 10px rgba(255, 50, 50, 0.25);
+}
+
+.btn-back:hover {
+    background: #c51a1a;
+    transform: translateY(-2px);
+}
+
+
+/* ============================
+   TABLE STYLE
+============================ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+table th {
+    background: #1296f1; /* HEADER BIRU */
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+table tr:hover td {
+    background: #f9fbff;
+}
+

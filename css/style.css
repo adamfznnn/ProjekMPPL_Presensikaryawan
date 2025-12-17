@@ -1,0 +1,164 @@
+/* ===============================
+   GLOBAL STYLE
+================================= */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #e9efff, #f5f7fa);
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* ===============================
+   CARD LOGIN / FORM BOX
+================================= */
+.card {
+  background: #ffffff;
+  width: 420px;
+  border-radius: 14px;
+  padding: 20px 50px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #2b2f3a;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+
+/* ===============================
+   INPUT FIELD
+================================= */
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #d5d7de;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.25s;
+}
+
+input:focus {
+  border-color: #2b7cff;
+  box-shadow: 0 0 0 3px rgba(43,124,255,0.15);
+  outline: none;
+}
+
+
+/* ===============================
+   BUTTONS
+================================= */
+button {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  background: #2b7cff;
+  color: white;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(43,124,255,0.3);
+}
+
+
+/* ===============================
+   ALERT BOXES
+================================= */
+.error,
+.info {
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.error {
+  color: #b00020;
+  background: #ffecec;
+  border-left: 4px solid #b00020;
+}
+
+.info {
+  color: #006600;
+  background: #eaffea;
+  border-left: 4px solid #009933;
+}
+
+
+/* ===============================
+   TABLE (SENADA DENGAN LOGIN UI)
+================================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+table th {
+  background: #2b7cff;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:hover td {
+  background: #f5f9ff;
+}
+
+
+/* ===============================
+   LINKS
+================================= */
+a {
+  color: #2b7cff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
